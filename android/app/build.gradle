@@ -131,11 +131,12 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.bytelion"
+        applicationId "org.reactjs.native.example.bytelion"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        signingConfig signingConfigs.debug
     }
     splits {
         abi {

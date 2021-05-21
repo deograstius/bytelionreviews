@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7DC38C872657A84800A10A47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DC38C862657A84800A10A47 /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BB5C69ED2EAE00AAF1589216 /* libPods-bytelion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 399E5FBCF8D543C3D156B664 /* libPods-bytelion.a */; };
 		FCE9E2CDF933FDCBB9DF85AB /* libPods-bytelion-bytelionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B76D5785758FF588CA92A296 /* libPods-bytelion-bytelionTests.a */; };
@@ -38,6 +39,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bytelion/main.m; sourceTree = "<group>"; };
 		399E5FBCF8D543C3D156B664 /* libPods-bytelion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bytelion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5415073C86BC92E1BDBEE8E8 /* Pods-bytelion-bytelionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bytelion-bytelionTests.debug.xcconfig"; path = "Target Support Files/Pods-bytelion-bytelionTests/Pods-bytelion-bytelionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC38C862657A84800A10A47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "bytelion/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = bytelion/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A80139241F4B225CE1EF4C3 /* Pods-bytelion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bytelion.release.xcconfig"; path = "Target Support Files/Pods-bytelion/Pods-bytelion.release.xcconfig"; sourceTree = "<group>"; };
 		B76D5785758FF588CA92A296 /* libPods-bytelion-bytelionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bytelion-bytelionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				7DC38C862657A84800A10A47 /* GoogleService-Info.plist */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -104,7 +107,6 @@
 				5415073C86BC92E1BDBEE8E8 /* Pods-bytelion-bytelionTests.debug.xcconfig */,
 				D244B9C4EED23D4396A8F0DE /* Pods-bytelion-bytelionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7DC38C872657A84800A10A47 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = bytelion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = bytelion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

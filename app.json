@@ -1,4 +1,17 @@
 {
   "name": "bytelion",
-  "displayName": "bytelion"
+  "expo": {
+    "name": "bytelion",
+    "icon": "./src/assets/square-logo.png",
+    "version": "1.0.0",
+    "slug": "bytelion",
+    "ios": {
+      "bundleIdentifier": "org.reactjs.native.example.bytelion",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "org.reactjs.native.example.bytelion",
+      "versionCode": 1
+    }
+  }
 }
