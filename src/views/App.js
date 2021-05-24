@@ -48,7 +48,7 @@ const App = () => {
               headerRight: () => {
                 return (
                   <Icon
-                    style={styles.logout}
+                    containerStyle={styles.logout}
                     onPress={() => signOut(navigation)}
                     name="log-out-outline"
                     type="ionicon"

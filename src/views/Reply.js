@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {StyleSheet, Button} from 'react-native';
+import {StyleSheet, Button, View} from 'react-native';
 import {Input} from 'react-native-elements';
 
 import STYLE_CONSTANTS from './constants/styleConstants';
@@ -19,13 +19,14 @@ const Reply = ({navigation, route}) => {
       <Input
         placeholder="Type reply"
         multiline={true}
-        style={styles.text}
         value={reply ?? ''}
         onChangeText={value => {
           setReply(value);
         }}
       />
-      <Button onPress={replyAndGoBack} title="Reply" />
+      <View style={styles.replyButton}>
+        <Button onPress={replyAndGoBack} title="Reply" />
+      </View>
     </>
   );
 };
@@ -33,6 +34,10 @@ const Reply = ({navigation, route}) => {
 const styles = StyleSheet.create({
   rating: {
     fontSize: STYLE_CONSTANTS.MEDIUM_FONT,
+  },
+  replyButton: {
+    marginRight: STYLE_CONSTANTS.SMALL_MARGIN,
+    marginLeft: STYLE_CONSTANTS.SMALL_MARGIN,
   },
 });
 

@@ -78,12 +78,17 @@ const Review = ({navigation, route}) => {
       )}
 
       {!review.reply && (
-        <Button
-          onPress={() =>
-            navigation.navigate('Reply', {updateReview, currentReview: review})
-          }
-          title="Reply"
-        />
+        <View style={styles.replyButton}>
+          <Button
+            onPress={() =>
+              navigation.navigate('Reply', {
+                updateReview,
+                currentReview: review,
+              })
+            }
+            title="Reply"
+          />
+        </View>
       )}
     </>
   );
@@ -107,6 +112,10 @@ const styles = StyleSheet.create({
   voteCount: {
     fontSize: STYLE_CONSTANTS.MEDIUM_FONT,
     marginLeft: STYLE_CONSTANTS.SMALL_MARGIN,
+  },
+  replyButton: {
+    marginLeft: STYLE_CONSTANTS.SMALL_MARGIN,
+    marginRight: STYLE_CONSTANTS.SMALL_MARGIN,
   },
 });
 

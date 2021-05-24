@@ -65,7 +65,7 @@ const Reviews = ({navigation, route}) => {
           onPress={showActionSheet}
           name="filter-outline"
           size={STYLE_CONSTANTS.RATING_STAR_SIZE}
-          style={styles.filter}
+          containerStyle={styles.filter}
           color="blue"
         />
       ),
